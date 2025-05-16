@@ -14,3 +14,7 @@ When both the publisher program and the subscriber program use the identical con
 
 ## Running RabbitMQ
 ![img1](img1.png)
+
+## Sending and processing event
+![img2](img2.png)
+![img3](img3.png)
