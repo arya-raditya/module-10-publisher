@@ -18,3 +18,7 @@ When both the publisher program and the subscriber program use the identical con
 ## Sending and processing event
 ![img2](img2.png)
 ![img3](img3.png)
+
+## Monitoring chart based on publisher
+![img4](img4.png)
+Explanation: When I run my publisher program, I observe spikes appearing on the message rates chart in the RabbitMQ management interface. These spikes are a direct result of my publisher actively sending messages to the RabbitMQ broker. Each time I execute my publisher, it transmits one or more messages, which the broker then processes. This sudden influx of messages causes a temporary surge in the "Publish" rate, visually represented as a spike on the graph. Therefore, repeatedly running my publisher program leads to a series of these spikes, each corresponding to a burst of messages I sent.
